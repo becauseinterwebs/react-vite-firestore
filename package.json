@@ -13,7 +13,7 @@
     "deploy:stage": "firebase deploy --only hosting -P staging",
     "publish:stage": "yarn build:stage && yarn deploy:stage",
     "deploy:prod2-old": "firebase deploy --only hosting -P default",
-    "deploy:prod": "CLOUDFLARE_ACCOUNT_ID=71ba2e805a1aee266702b2a1cce72958 npx wrangler pages deploy ./dist --project-name tk-talkie",
+    "deploy:prod": "CLOUDFLARE_ACCOUNT_ID=<YOUR ACCOUNT ID> npx wrangler pages deploy ./dist --project-name your-project-name",
     "publish:prod": "yarn build:prod && yarn deploy:prod",
     "publish:all": "yarn publish:stage && yarn publish:prod"
   },
