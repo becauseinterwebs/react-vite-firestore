@@ -1,6 +1,6 @@
 # React + Vite + Firestore (Typescript)
 
-Built by [Because...Interwebs!](https://becauseinterwebs.com)
+By [Because...Interwebs!](https://becauseinterwebs.com)
 
 This scaffolding template is designed to get a project using Vite, React and Firestore up and running quickly.
 
