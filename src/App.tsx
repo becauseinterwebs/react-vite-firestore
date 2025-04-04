@@ -6,7 +6,7 @@ import './App.css'
 function App() {
 
   return (
-    <>
+    <div className="content">
       <div className="header">
         <div>
           <a href="https://vite.dev" target="_blank">
@@ -25,10 +25,14 @@ function App() {
           <a className="promo-link" href="https://github.com/becauseinterwebs">GitHub</a> | <a className="promo-link" href="https://becauseinterwebs.com">Web</a>
         </div>
         <div className="card">
-          <p>This scaffolding template is designed to get a project using Vite, React and Firestore up and running quickly.</p>
+          <p>
+            This scaffolding template is designed to get a project using Vite, React and Firestore up and running quickly. 
+            It is a template I built as I found myself replicating this setup each time I started a new project with these requirements.
+          </p>
           <p>It does not include any CSS systems or frameworks such as Tailwind or Material UI.</p>
         </div>
       </div>
+      <hr/>
       <div className="list">
         <p>To configure the Firestore connection:</p>
         <ul>
@@ -51,7 +55,7 @@ function App() {
         <p><b>yarn publish:prod</b> or <b>npm run publish:prod</b></p>
         Just replace the <b>CLOUDFLARE_ACCOUNT_ID</b> with your token and change the <b>--project-name</b> variable to your project.
       </div>
-    </>
+    </div>
   )
 }
 
