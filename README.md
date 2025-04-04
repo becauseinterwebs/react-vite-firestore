@@ -1,5 +1,7 @@
 # React + Vite + Firestore (Typescript)
 
+[https://becauseinterwebs.com](Because...Interwebs!)
+
 This scaffolding template is designed to get a project using Vite, React and Firestore up and running quickly.
 
 It does not include any CSS systems or frameworks such as Tailwind or Material UI.
